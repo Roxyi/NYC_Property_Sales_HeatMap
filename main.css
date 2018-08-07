@@ -1,0 +1,112 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+#map {
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:100%;
+}
+#about {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+    text-decoration: none;
+    border-radius: 10px;
+    color: #eee;
+}
+.map-overlay {
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 25%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.map-overlay .map-overlay-inner {
+    background: transparent;
+    border: solid 1px #fff;
+    box-shadow:0 1px 2px rgba(0, 0, 0, 0.20);
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* The container */
+.checkboxContainer {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkboxContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkboxContainer input:checked ~ .checkmark:after {
+    display: inline-block;
+}
+
+/* Style the checkmark/indicator */
+.checkboxContainer .checkmark:after {
+    left: 3px;;
+    width: 6px;
+    height: 9px;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+}
+
+#showContour {
+	color: white;
+	font-size: 18px;
+}
+
+.mapboxgl-popup-tip {
+	display: none;
+}
+
+.mapboxgl-popup-content {
+	color: white;
+    background: transparent;
+    font-size: 16px;
+    pointer-events: none;
+}

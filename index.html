@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>NYC Real Estate Market Heatmap</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+<div id='map'></div>
+<div class='map-overlay top'>
+    <div class='map-overlay-inner'>
+        <div class="customCheckbox">
+            <label class="checkboxContainer">
+                <input type="checkbox" id='interactivity'>
+                <span class="checkmark"></span>
+            </label>
+            <span id="showContour">Show contour value</span>
+        </div>
+    </div>
+    </div>
+</div>
+<!-- <a id="about" href="https://github.com/Roxyi/NYC_Property_Sales_HeatMap">Source Code</a> -->
+<script src="main.js"></script>
+
+</body>
+</html>
