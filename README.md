@@ -1,1 +1,3 @@
-# NYC_Property_Sales_HeatMap
+# [NYC Property Price Per Sq Ft HeatMap](https://roxyi.github.io/nyc_psf_heatmap/)
+
+![preview](preview.jpg)
