@@ -1,0 +1,29 @@
+{
+  "name": "nyc_psf_heatmap",
+  "version": "1.0.0",
+  "description": "a heatmap visualizing NYC property price per sq ft",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roxyi/nyc_psf_heatmap.git"
+  },
+  "keywords": [
+    "heatmap",
+    "gis",
+    "mapbox"
+  ],
+  "author": "Yi Xu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roxyi/nyc_psf_heatmap/issues"
+  },
+  "homepage": "https://github.com/Roxyi/nyc_psf_heatmap#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
