@@ -1,7 +1,9 @@
 # [NYC Property Price Per Sq Ft HeatMap](https://roxyi.github.io/nyc_psf_heatmap/)
 
 ![preview](assets/preview.jpg)
-Processed the transactions data from NYC DOF in PostGIS. Used [IDW interpolation](https://gisgeography.com/inverse-distance-weighting-idw-interpolation/) to turn scatter data to contour lines based on [Abel Vázquez's tutorial](https://abelvm.github.io/sql/contour/). Employed Mapbox GL JS to render the map at the front-end.
+* Collected arms length transactions data from NYC DOF
+* Used [IDW interpolation](https://gisgeography.com/inverse-distance-weighting-idw-interpolation/) to turn points data to contour lines in ArcGIS
+* Employed Mapbox GL JS to render the map at the front-end.
 
 
 ## Getting Started
@@ -27,8 +29,4 @@ Gulp
 ## Built With
 
 * [Mapbox GL JS](https://github.com/mapbox/mapbox-gl-js) - JavaScript Library for Web-Based Mapping
-* [PostGIS](https://postgis.net/) - a spatial database extender for [PostgreSQL](https://www.postgresql.org/) object-relational database
-
-## Acknowledgments
-
-* [Abel Vázquez ](https://github.com/AbelVM)
+* [ArcGIS](https://www.arcgis.com/index.html) - Geographic Information System
